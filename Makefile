@@ -4,8 +4,8 @@ all:
 
 clean:
 	./rebar clean
-	rm -rf appps/*/priv/*.so
-	rm -rf apps/*/.eunit/
+	rm -rf nifs/*/priv/*.so
+	rm -rf nifs/*/.eunit/
 
 check:
 	./rebar compile eunit
